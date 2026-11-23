@@ -1,0 +1,38 @@
+// Programa para calcular horas extras semanais
+
+let horasTrabalhadas = parseFloat(prompt("Digite a quantidade de horas trabalhadas na semana:"));
+
+const cargaSemanal = 44;
+
+if (horasTrabalhadas > cargaSemanal) {
+    let horasExtras = horasTrabalhadas - cargaSemanal;
+
+    alert("O funcionário realizou " + horasExtras + " horas extras.");
+    console.log("O funcionário realizou " + horasExtras + " horas extras.");
+} else {
+    alert("Não houve horas extras pelo funcionário.");
+    console.log("Não houve horas extras pelo funcionário.");
+}
+// Programa para verificar aprovação de financiamento
+
+let renda = parseFloat(prompt("Digite a renda total da família:"));
+let valorFinanciamento = parseFloat(prompt("Digite o valor total do financiamento:"));
+let quantidadeMeses = parseInt(prompt("Digite a quantidade de meses para pagamento:"));
+
+// Calculando o valor da parcela
+let valorParcela = valorFinanciamento / quantidadeMeses;
+
+// Calculando o limite permitido (30% da renda)
+let limiteParcela = renda * 0.30;
+
+// Verificando aprovação
+if (valorParcela <= limiteParcela) {
+    alert("Financiamento APROVADO!");
+    alert("Valor da parcela: R$ " + valorParcela.toFixed(2));
+} else {
+    alert("Financiamento REPROVADO!");
+    alert("Valor da parcela: R$ " + valorParcela.toFixed(2));
+}
+
+// Exibindo valor máximo permitido
+alert("Valor máximo permitido para a parcela: R$ " + limiteParcela.toFixed(2));
