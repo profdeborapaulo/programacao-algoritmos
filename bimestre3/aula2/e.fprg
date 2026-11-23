@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="e"/>
+        <attribute name="authors" value="raul_26263"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-17 09:11:18 "/>
+        <attribute name="created" value="cmF1bF8yNjI2MztMQUI0TUFRMTY7MjAyNi0wOC0xNzsiMDc6NTQ6MzUgIjsyNTgw"/>
+        <attribute name="edited" value="cmF1bF8yNjI2MztMQUI0TUFRMTY7MjAyNi0wOC0xNzsiMDk6MTE6MTggIjsxOzI2ODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="digito" type="Integer" array="False" size=""/>
+            <input variable="digitoD"/>
+            <output expression="&quot;1: Suporte T&#233;cnico&quot;" newline="True"/>
+            <output expression="&quot;2: Financ&#233;iro&quot;" newline="True"/>
+            <output expression="&quot;3: Vendas&quot;" newline="True"/>
+            <output expression="&quot;4: Falar com atendente&quot;" newline="True"/>
+            <output expression="&quot;5: Sair&quot;" newline="True"/>
+            <if expression="digito = 1">
+                <then>
+                    <output expression="&quot;Voc&#234; escolheu Suporte T&#233;cnico&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="digito = 2">
+                        <then>
+                            <output expression="&quot;Voc&#234; escolheu Financ&#233;iro&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="digito = 3">
+                                <then>
+                                    <output expression="&quot;Voc&#234; escolheu Vendas&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="digito = 4">
+                                        <then>
+                                            <output expression="&quot;Voc&#234; escolheu Falar com atendente&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="digito = 5">
+                                                <then>
+                                                    <output expression="&quot;Voc&#234; escolheu Sair&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

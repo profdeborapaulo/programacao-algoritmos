@@ -1,0 +1,33 @@
+//kamehameha
+/*
+yes
+*/
+
+//Sintaxe de Declaração de Variaveis em JS
+/*Existem 3 formas de declarar variáveis em JS:
+1. var: para declarar variaveis que podem ter seus valores mudados (desatualizada)
+2. let: para declarar variaveis que podem ter seus valores mudados
+3. const: para declarar variaveis que não podem ser alteradas
+*/
+//operadores
+/*Aritmeticos:
++(soma)
+-(subtração)
+*(multiplicação)
+/(divisão)
+%(módulo)
+RELACIONAIS
+>maior
+<menor
+>= maior ou igual
+<= menor ou igual
+== igual
+!=diferente
+=== estritamente igual (compara tanto o valor quanto o tipo de dado)
+!== estritamente diferente (compara tanto o valor quanto o tipo de dado)
+
+TIPOS DE DADOS
+Numericos: Number
+Conjunto de caracteres: String
+Lógicos: &&(and), ||(or), !=(not)
+*/
