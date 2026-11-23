@@ -1,0 +1,1 @@
+//Desenvolver um programa que valide o login de um usuário. Se o usuário digitar no login: admin e na senha 1234, vai mostrar na tela: "Usuário logado com sucesso!", caso contrário, aparecerá a mensagem: "Acesso negado".
