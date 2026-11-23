@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercicio02"/>
+        <attribute name="authors" value="luca_26047"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-10 09:11:16 "/>
+        <attribute name="created" value="bHVjYV8yNjA0NztMQUI0TUFRMTA7MjAyNi0wOC0xMDsiMDc6MzM6MTYgIjsyNTQ4"/>
+        <attribute name="edited" value="bHVjYV8yNjA0NztMQUI0TUFRMTA7MjAyNi0wOC0xMDsiMDk6MTE6MTYgIjsxOzI2NTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <declare name="delta" type="Real" array="False" size=""/>
+            <declare name="raizDelta" type="Real" array="False" size=""/>
+            <declare name="x1" type="Real" array="False" size=""/>
+            <declare name="x2" type="Real" array="False" size=""/>
+            <output expression="&quot;Ol&#225;! Bem vindo ao sistema.&quot;" newline="True"/>
+            <output expression="&quot;Insira as informa&#231;&#245;es solicitadas para realizar o c&#225;lculo da f&#243;rmula de Bhaskara.&quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="delta" expression="b ^ 2 - 4 * a * c"/>
+            <assign variable="raizDelta" expression="delta ^ 0.5"/>
+            <if expression="delta &lt; 0 || a = 0">
+                <then>
+                    <output expression="&quot;A equa&#231;&#227;o n&#227;o possu&#237; raizes reais ou &#233; uma equa&#231;&#227;o de 1&#186; Grau.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="x1" expression="(-b + raizDelta) / 2*a"/>
+                    <assign variable="x2" expression="(-b - raizDelta) / 2*a"/>
+                    <output expression="&quot;Resultado:&quot;" newline="True"/>
+                    <output expression="&quot;Valor de Delta: &quot; &amp; delta" newline="True"/>
+                    <output expression="&quot;X&#185; =&quot; &amp; x1" newline="True"/>
+                    <output expression="&quot;X&#178; = &quot; &amp; x2" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

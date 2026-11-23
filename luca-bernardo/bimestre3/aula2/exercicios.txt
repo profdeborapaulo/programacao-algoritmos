@@ -1,0 +1,8 @@
+Utilizando a estrutura de dados switch case, desenvolva:
+1- Um programa para uma central de atendimento, cuja as opções são:
+    1. Suporte técnico
+    2. Financeiro.
+    3. Vendas
+    4. Falar com atendente
+    5. Sair
+Usar o JavaScript e o fluxograma para concluir sua tarefa.

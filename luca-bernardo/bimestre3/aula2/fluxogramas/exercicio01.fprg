@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercicio01"/>
+        <attribute name="authors" value="luca_26047"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-17 08:33:55 "/>
+        <attribute name="created" value="bHVjYV8yNjA0NztMQUI0TUFRMTA7MjAyNi0wOC0xNzsiMDg6MDQ6MDYgIjsyNTUz"/>
+        <attribute name="edited" value="bHVjYV8yNjA0NztMQUI0TUFRMTA7MjAyNi0wOC0xNzsiMDg6MzM6NTUgIjsxOzI2Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="opcao" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ol&#225;, seja bem vindo a central de atendimento.&quot;" newline="True"/>
+            <output expression="&quot;Escolha uma das op&#231;&#245;es para prosseguir: &quot;" newline="True"/>
+            <output expression="&quot;Digite 1 para falar com o Suporte T&#233;cnico.&quot;" newline="True"/>
+            <output expression="&quot;Digite 2 para falar com o Setor Financeiro.&quot;" newline="True"/>
+            <output expression="&quot;Digite 3 para falar com o Setor de Vendas.&quot;" newline="True"/>
+            <output expression="&quot;Digite 4 para falar com atendente.&quot;" newline="True"/>
+            <output expression="&quot;Digite 5 para sair.&quot;" newline="True"/>
+            <input variable="opcao"/>
+            <if expression="opcao = 1">
+                <then>
+                    <output expression="&quot;Iremos redirecionar para o Suporte T&#233;cnico.&quot;" newline="True"/>
+                    <output expression="&quot;Por favor, aguarde na linha.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="opcao = 2">
+                        <then>
+                            <output expression="&quot;Iremos redirecionar para o Setor Financeiro.&quot;" newline="True"/>
+                            <output expression="&quot;Por favor, aguarde na linha.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="opcao = 3">
+                                <then>
+                                    <output expression="&quot;Iremos redirecionar para o Setor de Vendas.&quot;" newline="True"/>
+                                    <output expression="&quot;Por favor, aguarde na linha.&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="opcao = 4">
+                                        <then>
+                                            <output expression="&quot;Iremos redirecionar para falar com atendente.&quot;" newline="True"/>
+                                            <output expression="&quot;Por favor, aguarde na linha.&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="opcao = 5">
+                                                <then>
+                                                    <output expression="&quot;Voc&#234; escolheu sair, obrigado por entrar em contato conosco.&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;N&#227;o entendi a op&#231;&#227;o selecionada. Agradecemos pelo contato.&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

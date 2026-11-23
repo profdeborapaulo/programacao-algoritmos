@@ -1,0 +1,11 @@
+Crie uma variável chamada nomeAluno e coloque nela o seu nome completo, igual como está no seu RG.
+
+Crie uma variável chamada idade e coloque nela quantos anos você tem. Use um número inteiro, sem vírgula.
+
+Crie uma variável chamada cidade e coloque nela o nome da cidade onde você mora atualmente.
+
+Crie uma variável chamada nota, usando um valor decimal, por exemplo: 8.5 ou 7.2.
+
+Crie uma variável chamado aprovado, usando um valor booleano: true (verdadeiro) se você foi aprovado ou false (falso) se não.
+
+Escreva um programa que mostre no console o nome, a idade e a nota do aluno. Capriche na apresentação dos dados para ficar bem claro!
