@@ -1,0 +1,13 @@
+1º Desenvolva um programa que receba 4 números e calcule sua média. Ao final exibir os números inseridos no cálculo da média;
+2º Faça um algoritmo que receba um número e exiba sua metade;
+3° Desenvolva um programa que receba 2 valores e exiba as quatro operações aritméticas básicas;
+4º Desenvolva um programa que realize o cálculo do desconto em um valor total de compra. O programa deverá receber o valor total da compra e a porcentagem do desconto a ser aplicado. Ao final exibir: 
+
+-O valor total da compra;
+-O índice percentual do desconto;
+-O valor do desconto;
+-O valor final a ser pago pelo cliente.
+
+5° Um microempreendedor da área de câmbio está com dificuldades em calcular a conversão de valores. Seu objetivo está em desenvolver um programa que faça a conversão automaticamente. Para isso deverá ser inserido o valor da cotação do dólar e o valor total em real para ser convertido.
+
+6º Desenvolva um programa que auxilie um motorista a gerenciar melhor seus gastos com abastecimento. O sistema deverá receber o preço do litro combustível e o valor total em dinheiro que o motorista tem disponível. Ao final o programa deverá exibir a quantidade de litros que deverá ser colocado no tanque. 

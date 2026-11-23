@@ -1,0 +1,17 @@
+1. Desenvolver um pograma que valide o login de um usuario. se o usuario digitar no login: admin e na 1234, vai mostrar na tela: "Usuário logado com sucesso!", caso contrário, aparecerá a mensagem: "Acesso negado!".
+
+2. Uma empresa de e-commerce deseja automatizar o seu sistema de entregas. Para isso, será necessaário desenvolver um programa que avalie a distância entre o centro de distribuição e a cidade de destino para determinar a viabilidade de entrega e o valor do frete.
+Regras de negócio: O cálculo do frete e a disponibilidade do serviço são baseados na distância em quilômetros (km), conforme segue:
+- Até 120km: A entrega é realizada e o frete é grátis;
+- De 121km a 300 km: A entrega não é realizada na região.
+Ao final, o programa deverá exibir como saída:
+-Se a etrega for grátis: informa que o frete é gratuito;
+-se houver cobrança: exibir o valor do frete formatado em R$;
+-Se estiver fora da área de corbetura: informar que a empresa não realize entrega na região.
+
+3. Uma academia de natação precisa de um sistema que organize a categoria dos seus atletas, conforme sua idade:
+-menor que 5: "categoria não permitida!";
+-maior ou igual a 5 e menor ou igual a 7: "Categoria Infantil A";
+-maior que 7 e menor ou igual a 14: "Categoria Infantil B";
+-maior que 14 e menor ou igual a 17: "Categoria Juvenil";
+- Caso contrário: "categoria Sênior"

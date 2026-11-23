@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buffet F&F - Festa Feliz</title>
+    <style>
+        :root {
+            --primary-color: #d32f2f;
+            --secondary-color: #ffb300;
+            --dark-color: #212121;
+            --light-color: #f5f5f5;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light-color);
+            color: var(--dark-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+        }
+
+        header h1 span {
+            color: var(--secondary-color);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 0 1rem;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .info-box, .calc-box {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .info-box h3, .calc-box h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .info-box ul {
+            list-style-position: inside;
+            margin-top: 1rem;
+        }
+
+        .info-box li {
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background-color: #b71c1c;
+        }
+
+        .result {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            border-radius: 4px;
+            display: none;
+        }
+
+        .result.error {
+            background-color: #ffebee;
+            color: #c62828;
+            border-left: 5px solid #c62828;
+            display: block;
+        }
+
+        .result.success {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            border-left: 5px solid #2e7d32;
+            display: block;
+        }
+
+        .result p {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Buffet <span>F&F</span></h1>
+        <p>Festa Feliz & Sem Desperdício</p>
+    </header>
+
+    <section class="hero">
+        <h2>O Melhor Churrasco para o seu Evento</h2>
+        <p>Planeje seu evento corporativo ou familiar conosco. Qualidade garantida e quantidade sob medida para os seus convidados.</p>
+    </section>
+
+    <main class="container">
+        <section class="info-box">
+            <h3>Nossos Serviços</h3>
+            <p>No Buffet F&F, nos preocupamos com cada detalhe. Oferecemos um serviço completo de churrasco com carnes nobres, bebidas geladas e doces deliciosos.</p>
+            <ul>
+                <li>Mínimo de 50 convidados por evento.</li>
+                <li>Cálculo preciso para evitar desperdícios.</li>
+                <li>Margem de segurança inclusa para churrasco sem sustos.</li>
+            </ul>
+        </section>
+
+        <section class="calc-box">
+            <h3>Simulador de Compras</h3>
+            <p style="margin-bottom: 1rem; font-size: 0.9rem; color: #666;">Descubra a quantidade necessária para sua festa:</p>
+            
+            <div class="form-group">
+                <label for="qtdConvidados">Número de Convidados:</label>
+                <input type="number" id="qtdConvidados" placeholder="Ex: 80">
+            </div>
+            <button onclick="calcularEvento()">Calcular Planejamento</button>
+
+            <div id="resultadoBox" class="result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Buffet F&F - Festa Feliz. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function calcularEvento() {
+            const input = document.getElementById('qtdConvidados').value;
+            const convidados = parseInt(input);
+            const resultBox = document.getElementById('resultadoBox');
+
+            if (isNaN(convidados) || convidados < 50) {
+                resultBox.className = "result error";
+                resultBox.innerHTML = "<strong>Aviso:</strong> Número insuficiente de convidados para contratar o buffet (Mínimo de 50 pessoas).";
+                return;
+            }
+
+            // Cálculos
+            const carne = ((convidados * 0.3) * 1.06).toFixed(2);
+            const refri = (convidados * 3) + 9;
+            const doces = convidados;
+
+            // Classificação
+            let classif = "";
+            if (convidados <= 100) classif = "Evento pequeno";
+            else if (convidados <= 200) classif = "Evento médio";
+            else classif = "Evento grande";
+
+            resultBox.className = "result success";
+            resultBox.innerHTML = `
+                <p><strong>Classificação:</strong> ${classif}</p>
+                <p>• <strong>Carne necessária:</strong> ${carne} kg</p>
+                <p>• <strong>Refrigerante:</strong> ${refri} latas</p>
+                <p>• <strong>Doces:</strong> ${doces} unidades</p>
+            `;
+        }
+    </script>
+</body>
+</html>

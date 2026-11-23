@@ -1,0 +1,8 @@
+utilizando a estrutura de dados swit case desenvolva, 
+1° um programa para uma central de atendimento, cuja as opcoes são 
+1 suporte tecnico 
+2 financeiro 
+3 vendas 
+4 falar com atendente 
+5 sair
+usar JS e fluxograma
