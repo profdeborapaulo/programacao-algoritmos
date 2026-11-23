@@ -1,0 +1,53 @@
+const prompt = require("prompt-sync")();
+
+let quantidadeSim = 0;
+let classificacao;
+let mensagem;
+
+console.log("TESTE DO POLÍGRAFO: ");
+console.log("Responda às perguntas com SIM ou NÃO.")
+
+let perguntas = [
+"Você conhecia a vítima?",
+"Você esteve no local do crime?",
+"Você esteve com a vítima no dia do ocorrido?",
+"Você viu alguém com a vítima no dia do ocorrido?",
+"Você discutiu com a vítima recentemente?",
+"Você escondeu alguma informação da polícia?",
+"Você conhece alguém envolvido no caso?",
+"Você mentiu durante o seu depoimento?",
+"Você ajudou alguém a esconder provas?",
+"Você sabe quem cometeu o crime?"
+];
+for (let i = 0; i < perguntas.length; i++) {
+console.log((i + 1) + ". " + perguntas[i]);
+let resposta = prompt("Responda Sim ou Não: ");
+resposta = resposta.toLowerCase().trim();
+if (resposta === "sim") {
+quantidadeSim++;
+}
+console.log("");
+}
+
+switch (true) {
+case quantidadeSim < 5:
+classificacao = "Inocente";
+mensagem = "O resultado declara você como inocente e sem participação no caso investigado.";
+break;
+case quantidadeSim = 5:
+classificacao = "Suspeito";
+mensagem = "As respostas indicam você como principal suspeito da investigação.";
+break;
+case quantidadeSim >= 6 && quantidadeSim <= 8:
+classificacao = "Cúmplice";
+mensagem = "As respostas indicam que você teve envolvimento no caso";
+break;
+case quantidadeSim >= 9 && quantidadeSim <= 10:
+classificacao = "Culpado";
+mensagem = "O resultado indica você como culpado/a pelo caso.";
+break;
+}
+console.log("\\n=== RESULTADO DO TESTE ===");
+console.log("Respostas Sim: " + quantidadeSim);
+console.log("Classificação: " + classificacao);
+console.log("Mensagem: " + mensagem);

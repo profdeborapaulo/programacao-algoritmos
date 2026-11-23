@@ -1,0 +1,146 @@
+const prompt = require("prompt-sync")();
+
+let total = 0;
+let codigo;
+let quantidade;
+let produto;
+let preco;
+let subtotal;
+
+console.log("BigFOME - Cardápio: ");
+console.log("1 - Hambúrguer - R$ 26.99");
+console.log("2 - Cheeseburger - R$ 35.99");
+console.log("3 - Cachorro-quente - R$ 18.50");
+console.log("4 - Sanduíche natural - R$ 38.99");
+console.log("5 - Refrigerante - R$ 9.50");
+console.log("6 - Suco natural - R$ 15.45");
+console.log("7 - Sobremesa - R$ 25.00");
+console.log("8 - Finalizar pedido");
+
+codigo = Number(prompt("Digite o código do produto: "));
+
+if (codigo != 8) {
+
+    switch (codigo) {
+        case 1:
+            produto = "Hambúrguer";
+            preco = 26.99;
+            break;
+        case 2:
+            produto = "Cheeseburger";
+            preco = 35.99;
+            break;
+        case 3:
+            produto = "Cachorro-quente";
+            preco = 18.50;
+            break;
+        case 4:
+            produto = "Sanduíche natural";
+            preco = 38.99;
+            break;
+        case 5:
+            produto = "Refrigerante";
+            preco = 9.50;
+            break;
+        case 6:
+            produto = "Suco natural";
+            preco = 15.45;
+            break;
+        case 7:
+            produto = "Sobremesa";
+            preco = 25.00;
+            break;
+    }
+
+    quantidade = Number(prompt("Digite a quantidade: "));
+    subtotal = preco * quantidade;
+    total = total + subtotal;
+
+    console.log(produto, "- Quantidade:", quantidade, "- Subtotal:", subtotal);
+
+    codigo = Number(prompt("Digite outro código ou 8 para finalizar: "));
+
+    if (codigo != 8) {
+
+        switch (codigo) {
+            case 1:
+                produto = "Hambúrguer";
+                preco = 26.99;
+                break;
+            case 2:
+                produto = "Cheeseburger";
+                preco = 35.99;
+                break;
+            case 3:
+                produto = "Cachorro-quente";
+                preco = 18.50;
+                break;
+            case 4:
+                produto = "Sanduíche natural";
+                preco = 38.99;
+                break;
+            case 5:
+                produto = "Refrigerante";
+                preco = 9.50;
+                break;
+            case 6:
+                produto = "Suco natural";
+                preco = 15.45;
+                break;
+            case 7:
+                produto = "Sobremesa";
+                preco = 25.00;
+                break;
+        }
+
+        quantidade = Number(prompt("Digite a quantidade: "));
+        subtotal = preco * quantidade;
+        total = total + subtotal;
+
+        console.log(produto, "- Quantidade:", quantidade, "- Subtotal:", subtotal);
+
+        codigo = Number(prompt("Digite outro código ou 8 para finalizar: "));
+
+        if (codigo != 8) {
+
+            switch (codigo) {
+                case 1:
+                    produto = "Hambúrguer";
+                    preco = 26.99;
+                    break;
+                case 2:
+                    produto = "Cheeseburger";
+                    preco = 35.99;
+                    break;
+                case 3:
+                    produto = "Cachorro-quente";
+                    preco = 18.50;
+                    break;
+                case 4:
+                    produto = "Sanduíche natural";
+                    preco = 38.99;
+                    break;
+                case 5:
+                    produto = "Refrigerante";
+                    preco = 9.50;
+                    break;
+                case 6:
+                    produto = "Suco natural";
+                    preco = 15.45;
+                    break;
+                case 7:
+                    produto = "Sobremesa";
+                    preco = 25.00;
+                    break;
+            }
+
+            quantidade = Number(prompt("Digite a quantidade: "));
+            subtotal = preco * quantidade;
+            total = total + subtotal;
+
+            console.log(produto, "- Quantidade:", quantidade, "- Subtotal:", subtotal);
+        }
+    }
+}
+
+console.log("VALOR TOTAL DO PEDIDO: ", total);

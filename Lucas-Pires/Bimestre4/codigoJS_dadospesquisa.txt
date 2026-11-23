@@ -1,0 +1,39 @@
+let idade = [25, 30, 26, 21, 32, 27, 28, 22];
+let sexo = ["M", "F", "M", "F", "M", "F", "M", "F"];
+let salarios = [1800, 2500, 1700, 1500, 2400, 1900, 2000, 1600];
+
+let masc= 0;
+let fem= 0;
+
+let salariomasc= 0;
+let salariofem= 0;
+
+for (let i=0; i < sexo.length; i++) {
+    if (sexo[i] == "M") {
+        masc++;
+        salariomasc+= salarios[i];
+    }
+    else if (sexo[i] == "F") {
+        fem++;
+        salariofem += salarios[i];
+    }
+}
+
+let total= masc + fem;
+let mediaGeral= (salariomasc+salariofem)/ total;
+console.log("Total de pessoas do sexo masculino: ", +masc);
+console.log("Total de pessoas do sexo feminino: ", +fem);
+console.log("Total pesquisado: ", +total);
+console.log("Média do grupo: ", +mediaGeral);
+console.log("Total dos salarios masculinos: ", +salariomasc);
+console.log("Total dos salarios femininos: ", +salariofem);
+
+if (salariomasc > salariofem) {
+    console.log("A maior soma dos salarios foi do sexo masculino");
+}
+else if (salariomasc < salariofem) {
+    console.log("A maior soma dos salarios foi do sexo feminino");
+}
+else {
+    console.log("A soma dos salarios de ambos os sexos são iguais");
+}
