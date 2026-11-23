@@ -1,0 +1,17 @@
+//Desenvolva um programa que receba 4 números e calcule sua média e, ao final, exibir os números inseridos e o cálculo da média//
+
+//Faça um algoritmo que receba um número e exiba sua metade// (feito)
+
+//Desenvolva um programa que receba 2 valores e exiba as 4 operações aritméticas básicas//
+
+/*Desenvolva um programa que realize o cálculo do desconto em um valor total de compra. O programa deverá receber o valor total da compra e a porcentagem do desconto a ser aplicada. Ao final, exibir:
+- O Valor total da compra
+- O Índice percentual do desconto
+- O Valor do desconto
+- O Valor final a ser pago pelo cliente*/
+
+//Um microempreendedor da área de câmbio está com dificuldades em calcular a conversão de valores. Seu objetivo está em desenvolver um programa que faça a conversão automaticamente. Para isso, deverá ser inserido o valor da cotação do dólar e o valor total em real para ser convertido//
+
+//Desenvolva um programa que auxilie um motorista a gerenciar melhor seus gastos com abastecimento. O sistema deverá receber o preço do litro do combustísvel e o valor total em dinheiro que o motorista tem disponível. Ao final, o programa deverá exibir a quantidade de litros que deverá ser colocado no tamnque.//
+
+//Desenvolver um programa em JavaScript que receba dois valores para as variáveis: num1 e num2. O objetivo do programa é realizar a troca dos valores, manipulando os dados das variáveis. Obrigatoriamente, você deverá criar uma terceira variável para realizar esta troca. Exibir o valores iniciais para as variáveis num1 e num2, e ao final os valores trocados. Fazer em JavaScript e no Draw.io o fluxograma. //

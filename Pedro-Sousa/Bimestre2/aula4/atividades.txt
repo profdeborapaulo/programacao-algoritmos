@@ -1,0 +1,10 @@
+//Desenvolva um programa em JavaScript para verificar se o número da variável é par ou ímpar//
+
+//Uma empresa necessita de um programa que calcule a quantidade de horas extras semanais de um funcionario. Sabendo
+que a carga semanal é de 44 horas, o programa deverá exibir um alerta se a quantidade de horas exceder este limite e 
+mostrar o total de horas excedido. Caso contrário, exibir a mensagem que não houve horas extras pelo funcionário//
+
+//A família "Carrara" deseja comprar um imóvel. Pelas regras de financiamento, a prestação do financiamento não 
+poderá exceder a 30% do valor da renda. O programa deve receber a renda total da família e o valor total do financiamento 
+dividido pelo número de meses para pagamento. O programa deverá informar o valor máximo permitido para a parcela e se foi 
+aprovado ou reprovado o plano.//
