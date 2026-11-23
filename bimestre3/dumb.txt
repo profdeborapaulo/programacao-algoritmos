@@ -1,6 +1,0 @@
-1. desenvolverm uma programa e receba um nome e idade de um cidadão em anos
-em seguida, o programa irá avaliar e responder se a idade digitada é válida,
-se for válida, se o voto é obrigatório ou facultativo.
-ao final, exibir as informações. faça em javascript e fluxograma
-
-2. desenvolver uma programa em javascript e fluxograma que calcula a fórmula de bhaskar
