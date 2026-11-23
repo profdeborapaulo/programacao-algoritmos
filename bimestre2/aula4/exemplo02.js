@@ -1,12 +1,10 @@
-/* Desenvolva um programa que receba a idade de uma pessoa. Deverá exibir na tela que a pessoa é maior de idade apenas de a idade informada é maior ou igual a 18 anos. */
+/*
+ Desenvolva um programa que receba na tela se ela e maior de idade ou menor de idade
+*/
 
-//Decisão Composta
-let idade = 15;
-
-//Se a idade for igual ou maior a 18 anos, exibirá na tela sua idade e mostrará que ele é maior de idade. Se não, exibirá na tela sua idade e mostrará que ele é menor de idade.
-
-if (idade >= 18){
-    console.log("Você tem", idade, "anos e é maior de idade.");
-} else {
-    console.log("Você tem", idade, "anos e é menor de idade.");
+let idade=15;
+if(idade >=18){
+    console.log("Você tem", idade, "anos. Você é maior de idade.");
+} else{
+    console.log("Você tem", idade, "anos. Você é menor de idade.")
 }

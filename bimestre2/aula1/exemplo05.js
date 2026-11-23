@@ -1,27 +1,12 @@
-/* Lógicos 
+ /*Operadoes logicos:
+ &&- E,retorna true se ambas espressoes forem verdadeiras        
+ ||- OU,retorna  true se ao menos uma das expressoes forem verdadeiras
+ ! - Não, nega uma expressão logica(booleana) 
+ */
 
-&& E/And - Retorna true se ambas as expressões são verdadeiras 
-|| Ou/Or – retorna true se pelo menos uma das expressões são verdadeiras 
-! Não/Not - nega uma expressão lógica (booleana) 
-*/
+ let valor1= true;
+ let valor2= false;
 
-let valor1= true;
-let valor2= false;
-
-console.log(valor1 && valor2); //False
-console.log(valor1 || valor2); //True
-console.log(!valor1); //False
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ console.log(valor1 && valor2); //false
+ console.log(valor1 || valor2); //true
+ console.log(!valor1); //false

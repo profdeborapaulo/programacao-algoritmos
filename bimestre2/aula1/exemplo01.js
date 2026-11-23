@@ -1,11 +1,14 @@
-// Criar um programa que tenha o nome, altura e a idade de uma pessoa
+//Criar um programa que tenha o nome e idade de uma pessoa
 
-//Declarar as variáveis:
-var nome= "Laura"; //string
-let idade= 15; //number int
-const altura= 1.60; //number float/double
+//Declarar as variaveis:
+var nome= "Debora"; //string
+let idade= 49; //numer int
+const altura= 1.70; // number float/double
 
 //Mostrar os dados
-console.log("Nome digitado: ", nome);
-console.log("Idade digitada: ", idade);
-console.log("Altura digitada: ", altura);
+console.log("Nome digitado:", nome);
+console.log("Idade digitada:", idade);
+console.log("Altura digitada:", altura);
+
+
+

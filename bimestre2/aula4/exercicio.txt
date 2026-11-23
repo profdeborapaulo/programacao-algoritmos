@@ -1,0 +1,7 @@
+1- Desenvolver um programa em JavaScript para verificar se o número da variavel é par ou impar.
+
+
+2- Uma empresa necessita de um programa que calcule a quantidade de horas extras semanias de um funcionario. Sabendo que a carga semenal e de 44 horas, o programa deverá exebir um alerta se a quantidade de horas exceder este limete e mostrar o total de horas excedido. Caso o contrario, exibir a mensagem que não houve horas extras pelo funcionario.
+
+
+3- A familia "Carrara" deseja comprar um imóvel. Pelas regras de financiamento, a prestação do financiamento não poderá exceder a 30% do valor da renda. O programa deve receber a renda total da familia e o valor total do financiamento dividido pelo o numero de meses para o pagamento. O programa devera imformar o valor maximo permetido para a parcela e se foi aprovado ou reprovado o plano.
