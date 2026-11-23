@@ -1,0 +1,11 @@
+desenvolva im programa em javascript para verificar se o numero
+da variavel é par ou impar.
+2-uma das empresas nescessita de um programa que calcule aquantidade de horas extras ,semanais de um funcionario.
+Sabendo que a carga semanal
+ é de 44horas,o programa devera exibir um alertae se a quantidade de horas exceder este limite e mostrar o total de horas excedido,
+ caso contrario,exibir a mensagem que não houve horas extras pelo
+ funcionario.
+ 3-a familia"carrara" deseja comprar um imovel.Pelas regras de financiamente,
+ a prestação do fananciamente não poderae exercer 30%
+ do valor de renda. O programa deve receber a renda total da familia e o valor total do financiamento dividido pelo número de meses 
+ para  pagamento. O programa deverá injformar o valor máximo permitido para a parcela e se foi aprovado ou reprovado o plano.

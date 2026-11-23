@@ -1,0 +1,13 @@
+esta estrutura permite avaliar uma condição e executar umconjuto
+ de instruções caso a condição seja verdaeira e outro conjuntode
+ instruções. caso a estrutura seja falsa.Em javascript,essa 
+ estrutura é formada pelos comandos if/else.
+ sintaxe:
+ if (condicao){
+    // instruções executadas caso a condição
+     seja verdadeira
+ }
+ else{
+    //instrucoes executadas caso a condicao
+     seja falsa
+ }

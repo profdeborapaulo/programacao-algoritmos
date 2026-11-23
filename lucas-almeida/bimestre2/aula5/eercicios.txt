@@ -1,0 +1,23 @@
+1.desenvolver um progrma que valide o login de um usuario.SE o usuario digitar no
+login:admin e na senha 1234,vai mostrar na tela :"usuario logado com sucesso !",
+caso contrario,aparecera a mensagem:"acesso negado!".
+
+2.uma empresa de e_commerce deseja automatizar seu sistema de entregas .para isso ,
+sera nescessario desenvolver um progarama que avalie a distancio entre o centro de distribuição
+e a cidade de destino paradeterminar a viabilidade deentrega do servilo sao baseados na distancia em quilometros (km).
+conforme segue :
+-até 120km:A entrega é realizada eo frete é gratis;
+de 121KM a 300KM: a entrega é realizada e o freete é calculado ,sendo R$2,00 por km.
+-Acimade 300 km:A entraga não é realizada na região .
+Ao final o progara devera exibir como saida .
+-se a entreaga foi Gratis ,informar que o frete é gratuito,
+-se houver cobrança .Exibir o valor total do fdretre formatado em R$;
+-se estiver fora da area de cobertura :informar que a empreaswa mão realiza entregas 
+na região.
+3.Uma academia de natação precisa deum sistema que organize a categoria dos seus
+atletas ,conforme sua idade:
+-menor que 5:"categoria não permitida!";
+-maior ou igual a 7:"categoria infantil A";
+-Maior ou igual a 14:"categoria infantil B";
+-Maior ou iugal a 17:"categoria juvenil";
+-caso contrário:"categoria sênior".
