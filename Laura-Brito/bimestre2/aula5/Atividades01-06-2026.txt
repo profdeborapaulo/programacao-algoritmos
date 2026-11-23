@@ -1,0 +1,46 @@
+01/06/2026
+
+Exemplo 1
+
+Através do encadeamento de if, desenvolva um programa para avaliar pela média de um aluno se ele está aprovado, reprovado ou de recuperação.
+Regras:
+média menor ou igual a 5: Reprovado.
+Média maior do que 5 e menor do que 6: Recuperação.
+Média maior ou igual a 6: Aprovado.
+
+---------------------------
+
+1. Usando condicional encadeada, resolva com JavaScript e Fluxograma.
+ 
+Criar um programa que classifica a nota de um aluno em conceitos (MB, B, R, I, NA).
+Se a  nota for maior ou igual a 90:  menção "MB"
+Se a nota for maior ou igual a 80: menção "B"; 
+Se a nota for maior ou igual a  70: menção "R";
+Se a nota for maior ou  igual a 60: menção "I"
+Senão atender aos critérios anteriores, menção: "NA".
+
+---------------------------
+
+2. Desenvolver um programa que valide o login de um usuário. Se o usuário digitar no login: "admin" e na senha: "1234", vai mostrar na tela: "Usuário logado com sucesso!", caso contrário, aparecerá a mensagem: "Acesso negado!".
+
+---------------------------
+
+3. Uma empresa de e-commerce deseja automatizar o seu sistema de entregas. Para isso, será necessário desenvolver um programa que avalie a distância entre o centro de distribuição e a cidade de destino para determinar a viabilidade de entrega e o valor do frete.
+Regras de negócio:
+- O cálculo do frete e a disponibilidade do serviço são baseados na distância em quilômetros (Km), conforme segue:
+- Até 120km: A entrega é realizada e o frete é grátis;
+- De 121km a 300km: A entrega é realizada e o frete é calculado, sendo R$2,00 por km.
+- Acima de 300km: A entrega não é realizada na região.
+Ao final, o programa deverá exibir como saída:
+- Se a entrega for grátis: informar que o frete é gratuito;
+- Se houver cobrança: exibir o valor total do frete formatado em R$;
+- Se estiver fora da área de cobertura: informar que a empresa não realiza entregas na região.
+
+---------------------------
+
+4. Uma academia de natação precisa de um sistema que organize a categoria dos seus atletas, conforme sua idade:
+- Menor que 5: "Categoria não permitida!";
+- Maior ou igual a 5 e menor ou igual a 7: "Categoria Infantil A";
+- Maior que 7 ou menor ou igual a 14: "Categoria Infantil B";
+- Maior que 14 e menor ou igual a 17: "Categoria Juvenil";
+- Caso contrário: "Categoria Sênior".

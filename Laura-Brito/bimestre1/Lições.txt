@@ -1,0 +1,14 @@
+Lições
+23/03/2026
+
+O gestor do depósito de materiais de construção precisa realizar o pagamento de comissão para seus vendedores. Desenvolva um programa que calcule a comissão dos vendedores, na qual o índice é de 5% do valor total da venda.
+O programa deve ter os seguintes dados:
+ - nome do vendedor 
+- código da peça 
+- preço unitário da peça 
+- quantidade vendida 
+
+Ao final, exibir:
+- nome do vendedor, código da peça, preço unidade, quantidade vendida, o valor total da venda e a comissão de 5% sobre o total da venda.
+
+Desenvolva em formato de pseudocódigo e em diagrama de blocos
