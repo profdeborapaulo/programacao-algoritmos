@@ -1,0 +1,1 @@
+Desenvolver um pr9ograma que receba o nome e a idade de um cidadão em anos em seguida, o programa irá avaliar e responder se a idade digitada é válida, se for válida se o voto é obrigatório ou facultativo. Ao final exibir as informações faça em JavaScript e fluxograma]

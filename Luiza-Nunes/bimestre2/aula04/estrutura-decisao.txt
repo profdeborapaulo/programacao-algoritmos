@@ -1,0 +1,13 @@
+Esta estrutura permite avaliar uma condição e executar um conjunto de instruções caso a condição seja verdade3ira e outro conjunto de instruções caso a estrutura seja falsa em JavaScript, essa estrutura é formada pelos comados if e else.
+Sintaxe:
+if (condicao) {
+    //instrucoes executadas caso a condicao seja verdadeira
+} else {
+    //instrucoes executadas caso a condicao seja falsa
+}
+
+
+// Exercicios 11-05-26
+
+1-Desenvolver um programa em JavaScript para verificar se p número da variável é par ou ímpar
+2- Uma empresa necessita de um programa que calcule a quantidade de horas extras semanais de um funcionários. 

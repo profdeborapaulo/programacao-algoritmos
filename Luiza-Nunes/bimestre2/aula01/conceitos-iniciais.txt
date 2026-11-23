@@ -1,0 +1,39 @@
+// comentário em uma linha
+/* mais de uma linha */
+
+//Sintaxe e declaração de variaveis em JS(existem 3 formas)
+/*
+1. VAR Declaram variáveis cujo os valores podem ser alterados (desatualizada)
+2. LET. Declaram variáveis cujo os valores podem ser alterados
+3. CONST. Declaram variáveis cujo os valores podem ser alterados
+
+
+//operadores e tipos de dados
+Aritméticos:
++ somar
+- subtrair
+* multiplicar
+/ divir
+% calcular o resto da multiplicaçao 
+= Atribuição
+
+
+Relacionais:
+> maior que
+<menor que
+>= maior ou igual a
+<= menor ou igual a 
+== igual a 
+!= diferente de
+=== igualdade estrita (compara tantop o valor quanto o tipo de dado)
+!== diferença estrita (compara tanto o valor quanto o tipo de dado)
+! - Não, nega uma expressão lógica (booleana)
+
+//Operadores lógicos
+&&-  E, retorna true se ambas expressoes forem verdadeiras
+|| - Ou,retorna true se pelo menos uma for verdadeira
+
+//Tipos de dados em JS
+Numéricos: number
+Conjunto de caracteres: String
+Lógicos: &&, ||, !

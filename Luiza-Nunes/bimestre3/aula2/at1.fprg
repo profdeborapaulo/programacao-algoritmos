@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="at1"/>
+        <attribute name="authors" value="luiza_26025"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-24 09:31:14 "/>
+        <attribute name="created" value="bHVpemFfMjYwMjU7TEFCNE1BUTAzOzIwMjYtMDgtMjQ7IjA3OjIzOjI4ICI7MjY4MQ=="/>
+        <attribute name="edited" value="bHVpemFfMjYwMjU7TEFCNE1BUTAzOzIwMjYtMDgtMjQ7IjA5OjMxOjE0ICI7MTsyNzg1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="escolha1" type="Integer" array="False" size=""/>
+            <declare name="escolha2" type="Integer" array="False" size=""/>
+            <declare name="escolha3" type="Integer" array="False" size=""/>
+            <declare name="preco1" type="Real" array="False" size=""/>
+            <declare name="preco2" type="Real" array="False" size=""/>
+            <declare name="preco3" type="Real" array="False" size=""/>
+            <declare name="nomepro1" type="String" array="False" size=""/>
+            <declare name="nomepro2" type="String" array="False" size=""/>
+            <declare name="nomepro3" type="String" array="False" size=""/>
+            <declare name="quant1" type="Integer" array="False" size=""/>
+            <declare name="quant2" type="Integer" array="False" size=""/>
+            <declare name="quant3" type="Integer" array="False" size=""/>
+            <declare name="subtotal1" type="Real" array="False" size=""/>
+            <declare name="subtotal2" type="Real" array="False" size=""/>
+            <declare name="subtotal3" type="Real" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <output expression="&quot;Bem vindo ao Big Fome! Escolha seus itens no card&#225;pio:&quot;" newline="True"/>
+            <output expression="&quot;1 - Hamb&#250;rguer - R$26,99&quot;" newline="True"/>
+            <output expression="&quot;2 - Cheeseburger - R$35,99&quot;" newline="True"/>
+            <output expression="&quot;3 - Cachorro-quente - R$18,50&quot;" newline="True"/>
+            <output expression="&quot;4 - Sandu&#237;che natural - R$38,99&quot;" newline="True"/>
+            <output expression="&quot;5 - Refrigerante - R$9,50&quot;" newline="True"/>
+            <output expression="&quot;6 - Suco Natural - R$15,45&quot;" newline="True"/>
+            <output expression="&quot;7 - Sobremesa - R$ 25,00&quot;" newline="True"/>
+            <output expression="&quot;Selecione o n&#250;mero correspondente do item desejado: &quot;" newline="True"/>
+            <input variable="escolha1"/>
+            <output expression="&quot;Selecione a quantidade: &quot;" newline="True"/>
+            <input variable="quant1"/>
+            <if expression="escolha1 == 1">
+                <then>
+                    <assign variable="preco1" expression="26.99"/>
+                    <assign variable="nomepro1" expression="&quot;Hamb&#250;rguer&quot;"/>
+                    <output expression="&quot;Op&#231;&#227;o selecionada: Hamb&#250;rguer&quot;" newline="True"/>
+                    <output expression="&quot;Quantidade:&quot; &amp; quant1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="escolha1 == 2">
+                        <then>
+                            <assign variable="preco1" expression="35.99"/>
+                            <assign variable="nomepro1" expression="&quot;Cheeseburger&quot;"/>
+                            <output expression="&quot;Op&#231;&#227;o selecionada: Cheeseburger&quot;" newline="True"/>
+                            <output expression="&quot;Quantidade:&quot; &amp; quant1" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="escolha1 == 3">
+                                <then>
+                                    <assign variable="preco1" expression="18.50"/>
+                                    <assign variable="nomepro1" expression="&quot;Cachorro-quente&quot;"/>
+                                    <output expression="&quot;Op&#231;&#227;o selecionada: Cachorro-quente&quot;" newline="True"/>
+                                    <output expression="&quot;Quantidade:&quot; &amp; quant1" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="escolha1 == 4">
+                                        <then>
+                                            <assign variable="preco1" expression="38.99"/>
+                                            <assign variable="nomepro1" expression="&quot;Sandu&#237;che natural&quot;"/>
+                                            <output expression="&quot;Op&#231;&#227;o selecionada: Sandu&#237;che natural&quot;" newline="True"/>
+                                            <output expression="&quot;Quantidade:&quot; &amp; quant1" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="escolha1 == 5">
+                                                <then>
+                                                    <assign variable="preco1" expression="9.50"/>
+                                                    <assign variable="nomepro1" expression="&quot;Refrigerante&quot;"/>
+                                                    <output expression="&quot;Op&#231;&#227;o selecionada: Refrigerante&quot;" newline="True"/>
+                                                    <output expression="&quot;Quantidade:&quot; &amp; quant1" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="escolha1 == 6">
+                                                        <then>
+                                                            <assign variable="preco1" expression="15.45"/>
+                                                            <assign variable="nomepro1" expression="&quot;Suco Natural&quot;"/>
+                                                            <output expression="&quot;Op&#231;&#227;o selecionada: Suco Natural&quot;" newline="True"/>
+                                                            <output expression="&quot;Quantidade:&quot; &amp; quant1" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="escolha1 == 7">
+                                                                <then>
+                                                                    <assign variable="preco1" expression="25.00"/>
+                                                                    <assign variable="nomepro1" expression="&quot;Sobremesa&quot;"/>
+                                                                    <output expression="&quot;Op&#231;&#227;o selecionada: Sobremesa&quot;" newline="True"/>
+                                                                    <output expression="&quot;Quantidade:&quot; &amp; quant1" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <assign variable="preco1" expression="0"/>
+                                                                    <assign variable="quant1" expression="0"/>
+                                                                    <output expression="&quot;Nenhum produto selecionado.&quot;" newline="True"/>
+                                                                    <output expression="&quot;Nenhum&quot;" newline="True"/>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <assign variable="subtotal1" expression="(preco1 * quant1)"/>
+            <output expression="&quot;Subtotal:&quot; &amp; subtotal1" newline="True"/>
+            <output expression="&quot;Gostaria de mais alguma coisa? Se sim, selecione mais um produto. Se n&#227;o, pressione 8 para finalizar o pedido: &quot;" newline="True"/>
+            <input variable="escolha2"/>
+            <if expression="escolha2 == 8">
+                <then>
+                    <assign variable="total" expression="subtotal1"/>
+                    <output expression="&quot;Produto 1: &quot; &amp; nomepro1" newline="True"/>
+                    <output expression="&quot;Quantidade: &quot; &amp; quant1" newline="True"/>
+                    <output expression="&quot;Subtotal: &quot; &amp; subtotal1" newline="True"/>
+                    <output expression="&quot;Total: &quot; &amp; total" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Selecione a quantidade: &quot;" newline="True"/>
+                    <input variable="quant2"/>
+                    <if expression="escolha2 == 1">
+                        <then>
+                            <assign variable="preco2" expression="26.99"/>
+                            <assign variable="nomepro2" expression="&quot;Hamb&#250;rguer&quot;"/>
+                            <output expression="&quot;Op&#231;&#227;o selecionada: Hamb&#250;rguer&quot;" newline="True"/>
+                            <output expression="&quot;Quantidade:&quot; &amp; quant2" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="escolha2 == 2">
+                                <then>
+                                    <assign variable="preco2" expression="35.99"/>
+                                    <assign variable="nomepro2" expression="&quot;Cheeseburger&quot;"/>
+                                    <output expression="&quot;Op&#231;&#227;o selecionada: Cheeseburger&quot;" newline="True"/>
+                                    <output expression="&quot;Quantidade:&quot; &amp; quant2" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="escolha2 == 3">
+                                        <then>
+                                            <assign variable="preco2" expression="18.50"/>
+                                            <assign variable="nomepro2" expression="&quot;Cachorro-quente&quot;"/>
+                                            <output expression="&quot;Op&#231;&#227;o selecionada: Cachorro-quente&quot;" newline="True"/>
+                                            <output expression="&quot;Quantidade:&quot; &amp; quant2" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="escolha2 == 4">
+                                                <then>
+                                                    <assign variable="preco2" expression="38.99"/>
+                                                    <assign variable="nomepro2" expression="&quot;Sandu&#237;che natural&quot;"/>
+                                                    <output expression="&quot;Op&#231;&#227;o selecionada: Sandu&#237;che natural&quot;" newline="True"/>
+                                                    <output expression="&quot;Quantidade:&quot; &amp; quant2" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="escolha2 == 5">
+                                                        <then>
+                                                            <assign variable="preco2" expression="9.50"/>
+                                                            <assign variable="nomepro2" expression="&quot;Refrigerante&quot;"/>
+                                                            <output expression="&quot;Op&#231;&#227;o selecionada: Refrigerante&quot;" newline="True"/>
+                                                            <output expression="&quot;Quantidade:&quot; &amp; quant2" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="escolha2 == 6">
+                                                                <then>
+                                                                    <assign variable="preco2" expression="15.45"/>
+                                                                    <assign variable="nomepro2" expression="&quot;Suco Natural&quot;"/>
+                                                                    <output expression="&quot;Op&#231;&#227;o selecionada: Suco Natural&quot;" newline="True"/>
+                                                                    <output expression="&quot;Quantidade:&quot; &amp; quant2" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="escolha2 == 7">
+                                                                        <then>
+                                                                            <assign variable="preco2" expression="25.00"/>
+                                                                            <assign variable="nomepro2" expression="&quot;Sobremesa&quot;"/>
+                                                                            <output expression="&quot;Op&#231;&#227;o selecionada: Sobremesa&quot;" newline="True"/>
+                                                                            <output expression="&quot;Quantidade:&quot; &amp; quant2" newline="True"/>
+                                                                        </then>
+                                                                        <else>
+                                                                            <output expression="&quot;Nenhum produto selecionado.&quot;" newline="True"/>
+                                                                            <assign variable="preco2" expression="0"/>
+                                                                            <assign variable="nomepro2" expression="&quot;Nenhum&quot;"/>
+                                                                            <assign variable="quant2" expression="0"/>
+                                                                        </else>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                    <assign variable="subtotal2" expression="(preco2 * quant2)"/>
+                    <output expression="&quot;Subtotal:&quot; &amp; subtotal2" newline="True"/>
+                    <output expression="&quot;Gostaria de mais alguma coisa? Se sim, selecione mais um produto. Se n&#227;o, pressione 8 para finalizar o pedido: &quot;" newline="True"/>
+                    <input variable="escolha3"/>
+                    <if expression="escolha3 == 8">
+                        <then>
+                            <assign variable="total" expression="subtotal1 + subtotal2"/>
+                            <output expression="&quot;Produto 1: &quot; &amp; nomepro1" newline="True"/>
+                            <output expression="&quot;Quantidade: &quot; &amp; quant1" newline="True"/>
+                            <output expression="&quot;Subtotal: &quot; &amp; subtotal1" newline="True"/>
+                            <output expression="&quot;Produto 2: &quot; &amp; nomepro2" newline="True"/>
+                            <output expression="&quot;Quantidade: &quot; &amp; quant2" newline="True"/>
+                            <output expression="&quot;Subtotal: &quot; &amp; subtotal2" newline="True"/>
+                            <output expression="&quot;Total: &quot; &amp; total" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Selecione a quantidade: &quot;" newline="True"/>
+                            <input variable="quant3"/>
+                            <if expression="escolha3 == 1">
+                                <then>
+                                    <assign variable="preco3" expression="26.99"/>
+                                    <assign variable="nomepro3" expression="&quot;Hamb&#250;rguer&quot;"/>
+                                    <output expression="&quot;Op&#231;&#227;o selecionada: Hamb&#250;rguer&quot;" newline="True"/>
+                                    <output expression="&quot;Quantidade:&quot; &amp; quant3" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="escolha3 == 2">
+                                        <then>
+                                            <assign variable="preco3" expression="35.99"/>
+                                            <assign variable="nomepro3" expression="&quot;Cheeseburger&quot;"/>
+                                            <output expression="&quot;Op&#231;&#227;o selecionada: Cheeseburger&quot;" newline="True"/>
+                                            <output expression="&quot;Quantidade:&quot; &amp; quant3" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="escolha3 == 3">
+                                                <then>
+                                                    <assign variable="preco3" expression="18.50"/>
+                                                    <assign variable="nomepro3" expression="&quot;Cachorro-quente&quot;"/>
+                                                    <output expression="&quot;Op&#231;&#227;o selecionada: Cachorro-quente&quot;" newline="True"/>
+                                                    <output expression="&quot;Quantidade:&quot; &amp; quant3" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="escolha3 == 4">
+                                                        <then>
+                                                            <assign variable="preco3" expression="38.99"/>
+                                                            <assign variable="nomepro3" expression="&quot;Sandu&#237;che natural&quot;"/>
+                                                            <output expression="&quot;Op&#231;&#227;o selecionada: Sandu&#237;che natural&quot;" newline="True"/>
+                                                            <output expression="&quot;Quantidade:&quot; &amp; quant3" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="escolha3 == 5">
+                                                                <then>
+                                                                    <assign variable="preco3" expression="9.50"/>
+                                                                    <assign variable="nomepro3" expression="&quot;Refrigerante&quot;"/>
+                                                                    <output expression="&quot;Op&#231;&#227;o selecionada: Refrigerante&quot;" newline="True"/>
+                                                                    <output expression="&quot;Quantidade:&quot; &amp; quant3" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="escolha3 == 6">
+                                                                        <then>
+                                                                            <assign variable="preco2" expression="15.45"/>
+                                                                            <assign variable="nomepro2" expression="&quot;Suco Natural&quot;"/>
+                                                                            <output expression="&quot;Op&#231;&#227;o selecionada: Suco Natural&quot;" newline="True"/>
+                                                                            <output expression="&quot;Quantidade:&quot; &amp; quant2" newline="True"/>
+                                                                        </then>
+                                                                        <else>
+                                                                            <if expression="escolha3 == 7">
+                                                                                <then>
+                                                                                    <assign variable="preco2" expression="25.00"/>
+                                                                                    <assign variable="nomepro2" expression="&quot;Sobremesa&quot;"/>
+                                                                                    <output expression="&quot;Op&#231;&#227;o selecionada: Sobremesa&quot;" newline="True"/>
+                                                                                    <output expression="&quot;Quantidade:&quot; &amp; quant2" newline="True"/>
+                                                                                </then>
+                                                                                <else>
+                                                                                    <output expression="&quot;Nenhum produto selecionado.&quot;" newline="True"/>
+                                                                                    <assign variable="preco2" expression="0"/>
+                                                                                    <assign variable="nomepro2" expression="&quot;Nenhum&quot;"/>
+                                                                                    <assign variable="quant2" expression="0"/>
+                                                                                </else>
+                                                                            </if>
+                                                                        </else>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <input variable=""/>
+            <assign variable="subtotal3" expression="(preco3 * quant3)"/>
+            <output expression="&quot;Subtotal:&quot; &amp; subtotal3" newline="True"/>
+            <assign variable="total" expression="subtotal1 + subtotal2 + subtotal3"/>
+            <output expression="&quot;Produto 1: &quot; &amp; nomepro1" newline="True"/>
+            <output expression="&quot;Quantidade: &quot; &amp; quant1" newline="True"/>
+            <output expression="&quot;Subtotal: &quot; &amp; subtotal1" newline="True"/>
+            <output expression="&quot;Produto 2: &quot; &amp; nomepro2" newline="True"/>
+            <output expression="&quot;Quantidade: &quot; &amp; quant2" newline="True"/>
+            <output expression="&quot;Subtotal: &quot; &amp; subtotal2" newline="True"/>
+            <output expression="&quot;Produto 3: &quot; &amp; nomepro3" newline="True"/>
+            <output expression="&quot;Quantidade: &quot; &amp; quant3" newline="True"/>
+            <output expression="&quot;Subtotal: &quot; &amp; subtotal3" newline="True"/>
+            <output expression="&quot;Total: &quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
