@@ -1,0 +1,3 @@
+1 - Desenvolver um programa que receba o nome e a idade de um cidadão em anos. Em seguida, o programa irá  avaliar e responder se a idade digitada é válida, se for válida, se o voto é obrigatório ou facultativo. Ao final, exibir as informações. Faça em JS e fluxograma.
+
+2 - Desenvolver um programa em js e fluxograma que calcule a fórmula de bhaskara.

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exercicio2"/>
+        <attribute name="authors" value="laura_26136"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-10 09:10:28 "/>
+        <attribute name="created" value="bGF1cmFfMjYxMzY7TEFCNE1BUTAyOzIwMjYtMDgtMTA7IjA4OjAyOjQ5ICI7MjY2Mw=="/>
+        <attribute name="edited" value="bGF1cmFfMjYxMzY7TEFCNE1BUTAyOzIwMjYtMDgtMTA7IjA5OjEwOjI4ICI7MjsyNzY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="delta" type="Integer" array="False" size=""/>
+            <declare name="x1" type="Integer" array="False" size=""/>
+            <declare name="x2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escreva o valor do A:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Escreva o valor do B:&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Escreva o valor do C:&quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="a = 0">
+                <then>
+                    <output expression="&quot;A n&#227;o pode ser zero&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="delta" expression="(b ^ 2) - (4 * a * c)"/>
+                    <output expression="&quot;Delta &#233;:&quot; &amp; delta" newline="True"/>
+                    <if expression="delta &lt; 0">
+                        <then>
+                            <output expression="&quot;Delta &#233; menor que zero, ent&#227;o n&#227;o poderemos seguir com a conta&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="x1" expression="(-b - delta ^ 0.5) / (2 * a)"/>
+                            <assign variable="x2" expression="(-b + delta ^ 0.5) / (2 * a)"/>
+                        </else>
+                    </if>
+                    <output expression="&quot;Valor de A:&quot; &amp; a" newline="True"/>
+                    <output expression="&quot;Valor de B:&quot; &amp; b" newline="True"/>
+                    <output expression="&quot;Valor de C:&quot; &amp; c" newline="True"/>
+                    <output expression="&quot;Valor de Delta:&quot; &amp; delta" newline="True"/>
+                    <output expression="&quot;Valor de X1:&quot; &amp; x1" newline="True"/>
+                    <output expression="&quot;Valor de X2:&quot; &amp; x2" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exercicio1"/>
+        <attribute name="authors" value="laura_26136"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-10 09:15:18 "/>
+        <attribute name="created" value="bGF1cmFfMjYxMzY7TEFCNE1BUTAyOzIwMjYtMDgtMTA7IjA3OjU1OjM2ICI7MjY2Ng=="/>
+        <attribute name="edited" value="bGF1cmFfMjYxMzY7TEFCNE1BUTAyOzIwMjYtMDgtMTA7IjA5OjE1OjE4ICI7MjsyNzcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escreva seu nome:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Escreva sua idade:&quot;" newline="True"/>
+            <input variable="idade"/>
+            <if expression="idade &gt;= 16">
+                <then>
+                    <output expression="&quot;Idade v&#225;lida&quot;" newline="True"/>
+                    <if expression="idade &gt;= 18 &amp;&amp; idade &lt; 70">
+                        <then>
+                            <output expression="&quot;Seu nome &#233;:&quot;" newline="True"/>
+                            <output expression="nome" newline="True"/>
+                            <output expression="&quot;Seu voto &#233; obrigat&#243;rio&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Seu nome &#233;:&quot;" newline="True"/>
+                            <output expression="nome" newline="True"/>
+                            <output expression="&quot;Seu voto &#233; facultativo&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Sua idade n&#227;o &#233; v&#225;lida&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

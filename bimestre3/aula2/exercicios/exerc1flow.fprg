@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exerc1flow"/>
+        <attribute name="authors" value="laura_26136"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-17 08:10:21 "/>
+        <attribute name="created" value="bGF1cmFfMjYxMzY7TEFCNE1BUTAyOzIwMjYtMDgtMTc7IjA4OjAwOjQ3ICI7MjY2Ng=="/>
+        <attribute name="edited" value="bGF1cmFfMjYxMzY7TEFCNE1BUTAyOzIwMjYtMDgtMTc7IjA4OjEwOjIxICI7MTsyNzY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="escolha" type="Integer" array="False" size=""/>
+            <output expression="&quot;1 para suporte t&#233;cnico, 2 para Parte Financeiro, 3 para Vendas, 4 para falar com o atendente e 5 para sair:&quot;" newline="True"/>
+            <input variable="escolha"/>
+            <if expression="(escolha == 1)">
+                <then>
+                    <output expression="&quot;Voc&#234; escolheu a op&#231;&#227;o 1: Suporte T&#233;cnico&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="(escolha == 2)">
+                        <then>
+                            <output expression="&quot;Voc&#234; escolheu a op&#231;&#227;o 2: Parte Financeira&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="(escolha == 3)">
+                                <then>
+                                    <output expression="&quot;Voc&#234; escolheu a op&#231;&#227;o 3: Parte de Vendas&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="(escolha == 4)">
+                                        <then>
+                                            <output expression="&quot;Voc&#234; escolheu a op&#231;&#227;o 4: Falar com o atendente&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="(escolha == 5)">
+                                                <then>
+                                                    <output expression="&quot;Voc&#234; escolheu a op&#231;&#227;o 5: Sair&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Nenhuma op&#231;&#227;o foi selecionada.&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
