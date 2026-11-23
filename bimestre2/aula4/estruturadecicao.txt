@@ -1,7 +1,0 @@
-esta estrutura permite avaliar uma condição e executar um conjunto de instruções caso a condição seja verdadeira e outro conjunto de instruções, caso a estrutura seja falsa . em javascript, essa estrutura é formada peços comandos if/else.
-sintaxe:
-if (condicao) {
-     // instrucoes executadas caso a condição seja verdadeira
-} else{
-    // instruções executadas caso a condição seja falsa
-}
