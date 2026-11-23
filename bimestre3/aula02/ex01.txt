@@ -1,0 +1,8 @@
+Utilizando a estrutura de dados switchcase, desenvolva um programa para uma central de atendimento, cujas opçês sâo:
+1- suporte técnico
+1- financeiro
+3- vendas
+4- falar com atendente
+5- sair
+
+usar JS e fazer fluxograma
