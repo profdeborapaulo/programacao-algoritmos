@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxograma"/>
+        <attribute name="authors" value="marcos_26223"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-26 09:18:07 "/>
+        <attribute name="created" value="bWFyY29zXzI2MjIzO0xBQjRNQVExMzsyMDI2LTEwLTI2OyIwNzoxODo0NiAiOzI3Nzc="/>
+        <attribute name="edited" value="bWFyY29zXzI2MjIzO0xBQjRNQVExMzsyMDI2LTEwLTI2OyIwOToxODowNyAiOzE7Mjg4NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;DIGITE O NOME DO INTERROGADO&quot;" newline="True"/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <input variable="nome"/>
+            <declare name="QtdSim" type="Integer" array="False" size=""/>
+            <assign variable="QtdSim" expression="0"/>
+            <declare name="pergunta1" type="String" array="False" size=""/>
+            <assign variable="pergunta1" expression="&quot;Voc&#234; conhece a v&#237;tima ou algum parente dela?&quot;"/>
+            <declare name="pergunta2" type="String" array="False" size=""/>
+            <assign variable="pergunta2" expression="&quot;Voc&#234; sabe em qual hor&#225;rio ocorreu o acidente?&quot;"/>
+            <declare name="pergunta3" type="String" array="False" size=""/>
+            <assign variable="pergunta3" expression="&quot;Voc&#234; estava acordado(a) no hor&#225;rio do acidente?&quot;"/>
+            <declare name="pergunta4" type="String" array="False" size=""/>
+            <assign variable="pergunta4" expression="&quot;Voc&#234; tem ideia de algu&#233;m que possa ser suspeito?&quot;"/>
+            <declare name="pergunta5" type="String" array="False" size=""/>
+            <assign variable="pergunta5" expression="&quot;A v&#237;tima tinha alguma d&#237;vida com voc&#234;?&quot;"/>
+            <declare name="pergunta6" type="String" array="False" size=""/>
+            <assign variable="pergunta6" expression="&quot;A v&#237;tima conhecia algum partente seu?&quot;"/>
+            <declare name="pergunta7" type="String" array="False" size=""/>
+            <assign variable="pergunta7" expression="&quot;Voc&#234; soube da not&#237;cia da morte no mesmo dia do ocorrido?&quot;"/>
+            <declare name="pergunta8" type="String" array="False" size=""/>
+            <assign variable="pergunta8" expression="&quot;Algu&#233;m lhe contou algo sobre a v&#237;tima antes do ocorrido?&quot;"/>
+            <declare name="pergunta9" type="String" array="False" size=""/>
+            <assign variable="pergunta9" expression="&quot;Se a v&#237;tima estivesse viva hoje, ela teria algum ran&#231;o de voc&#234;?&quot;"/>
+            <declare name="pergunta10" type="String" array="False" size=""/>
+            <assign variable="pergunta10" expression="&quot;A v&#237;tima era uma pessoa desempregada?&quot;"/>
+            <output expression="&quot;=============Responda as perguntas com Sim/N&#227;o=============&quot;" newline="True"/>
+            <output expression="pergunta1" newline="True"/>
+            <declare name="resposta1" type="String" array="False" size=""/>
+            <input variable="resposta1"/>
+            <if expression="resposta1 == &quot;Sim&quot;">
+                <then>
+                    <assign variable="QtdSim" expression="QtdSim + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="pergunta2" newline="True"/>
+            <declare name="resposta2" type="String" array="False" size=""/>
+            <input variable="resposta2"/>
+            <if expression="resposta2 == &quot;Sim&quot;">
+                <then>
+                    <assign variable="QtdSim" expression="QtdSim + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="pergunta3" newline="True"/>
+            <declare name="resposta3" type="String" array="False" size=""/>
+            <input variable="resposta3"/>
+            <if expression="resposta3 == &quot;Sim&quot;">
+                <then>
+                    <assign variable="QtdSim" expression="QtdSim + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="pergunta4" newline="True"/>
+            <declare name="resposta4" type="String" array="False" size=""/>
+            <input variable="resposta4"/>
+            <if expression="resposta4 == &quot;Sim&quot;">
+                <then>
+                    <assign variable="QtdSim" expression="QtdSim + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="pergunta5" newline="True"/>
+            <declare name="resposta5" type="String" array="False" size=""/>
+            <input variable="resposta5"/>
+            <if expression="resposta5 == &quot;Sim&quot;">
+                <then>
+                    <assign variable="QtdSim" expression="QtdSim + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="pergunta6" newline="True"/>
+            <declare name="resposta6" type="String" array="False" size=""/>
+            <input variable="resposta6"/>
+            <if expression="resposta6 == &quot;Sim&quot;">
+                <then>
+                    <assign variable="QtdSim" expression="QtdSim + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="pergunta7" newline="True"/>
+            <declare name="resposta7" type="String" array="False" size=""/>
+            <input variable="resposta7"/>
+            <if expression="resposta7 == &quot;Sim&quot;">
+                <then>
+                    <assign variable="QtdSim" expression="QtdSim + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="pergunta8" newline="True"/>
+            <declare name="resposta8" type="String" array="False" size=""/>
+            <input variable="resposta8"/>
+            <if expression="resposta8 == &quot;Sim&quot;">
+                <then>
+                    <assign variable="QtdSim" expression="QtdSim + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="pergunta9" newline="True"/>
+            <declare name="resposta9" type="String" array="False" size=""/>
+            <input variable="resposta9"/>
+            <if expression="resposta9 == &quot;Sim&quot;">
+                <then>
+                    <assign variable="QtdSim" expression="QtdSim + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="pergunta10" newline="True"/>
+            <declare name="resposta10" type="String" array="False" size=""/>
+            <input variable="resposta10"/>
+            <if expression="resposta10 == &quot;Sim&quot;">
+                <then>
+                    <assign variable="QtdSim" expression="QtdSim + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Quantidades de sim respondidos:&quot;" newline="True"/>
+            <output expression="QtdSim" newline="True"/>
+            <if expression="QtdSim &lt; 5">
+                <then>
+                    <output expression="&quot;SITUA&#199;&#194;O: INOCENTE&quot;" newline="True"/>
+                    <output expression="&quot;Voc&#234; est&#225; liberado, pois n&#227;o tem nenhuma correla&#231;&#227;o com o caso&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="QtdSim = 5">
+                        <then>
+                            <output expression="&quot;SITUA&#199;&#194;O: SUSPEITO&quot;" newline="True"/>
+                            <output expression="&quot;Voc&#234; est&#225; livre por agora, mas ainda &#233; um de nossos suspeitos&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="QtdSim &gt;= 6 &amp;&amp; QtdSim &lt;= 8">
+                                <then>
+                                    <output expression="&quot;SITUA&#199;&#194;O: C&#218;MPLICE&quot;" newline="True"/>
+                                    <output expression="&quot;Voc&#234; ter&#225; que ficar, pois tem mais informa&#231;&#245;es do caso do que a maioria&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="QtdSim &gt;= 9 &amp;&amp; QtdSim &lt;= 10">
+                                        <then>
+                                            <output expression="&quot;SITUA&#199;&#194;O: CULPADO&quot;" newline="True"/>
+                                            <output expression="&quot;Deste local voc&#234; n&#227;o sair&#225; livre. VOC&#202; EST&#193; PRESO&quot;" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
