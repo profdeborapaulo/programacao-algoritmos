@@ -1,0 +1,60 @@
+let quantidade = Number(prompt("Quantas pessoas serão pesquisadas?"));
+
+let totalH = 0;
+let totalM = 0;
+
+let salarioH = 0;
+let salarioM = 0;
+
+let contador = 1;
+
+while (contador <= quantidade) {
+    let idade = Number(prompt("Digite a idade:"));
+    let sexo = prompt("Digite o sexo (M/F):").toUpperCase();
+    let salario = Number(prompt("Digite o salário:"));
+
+    if (sexo == "M") {
+        totalH++;
+        salarioH += salario;
+    } else if (sexo == "F") {
+        totalM++;
+        salarioM += salario;
+    }
+
+    contador++;
+}
+
+let mediaH = 0;
+let mediaM = 0;
+let mediaGeral = 0;
+
+if (totalH > 0) {
+    mediaH = salarioH / totalH;
+}
+
+if (totalM > 0) {
+    mediaM = salarioM / totalM;
+}
+
+if (quantidade > 0) {
+    mediaGeral = (salarioH + salarioM) / quantidade;
+}
+
+console.log("RELATÓRIO FINAL");
+
+console.log("Total de homens: " + totalH);
+console.log("Total de mulheres: " + totalM);
+
+console.log("Média salarial dos homens: R$ " + mediaH);
+console.log("Média salarial das mulheres: R$ " + mediaM);
+console.log("Média salarial geral: R$ " + mediaGeral);
+
+console.log("Total de pessoas pesquisadas: " + quantidade);
+
+if (salarioH > salarioM) {
+    console.log("O maior valor salarial foi do sexo M.");
+} else if (salarioM > salarioH) {
+    console.log("O maior valor salarial foi do sexo F.");
+} else {
+    console.log("Os dois sexos possuem o mesmo valor salarial total.");
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxograma.poligrafo"/>
+        <attribute name="authors" value="karen_26264"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-27 12:31:45 "/>
+        <attribute name="created" value="a2FyZW5fMjYyNjQ7TEFCMk1BUTExOzIwMjYtMTAtMjc7IjExOjQ2OjQzICI7MjY1Ng=="/>
+        <attribute name="edited" value="a2FyZW5fMjYyNjQ7TEFCMk1BUTExOzIwMjYtMTAtMjc7IjEyOjMxOjQ1ICI7MTsyNzYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quantidadesim" type="Integer" array="False" size=""/>
+            <declare name="resposta" type="String" array="False" size=""/>
+            <declare name="Classifica&#231;&#227;o" type="String" array="False" size=""/>
+            <declare name="mensagem" type="String" array="False" size=""/>
+            <assign variable="quantidadesim" expression="0"/>
+            <output expression="&quot;Voc&#234; conhece a v&#237;tima?&quot;" newline="True"/>
+            <input variable="resposta"/>
+            <if expression="resposta=&quot;sim&quot;">
+                <then>
+                    <assign variable="quantidadesim" expression="quantidadesim +1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Voc&#234; esteve no local do crime?&quot;" newline="True"/>
+            <input variable="resposta"/>
+            <if expression="resposta=&quot;sim&quot;">
+                <then>
+                    <assign variable="quantidadesim" expression="quantidadesim +1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Voc&#234; conseguia chegar ao local do crime?&quot;" newline="True"/>
+            <input variable="resposta"/>
+            <if expression="resposta=&quot;sim&quot;">
+                <then>
+                    <assign variable="quantidadesim" expression="quantidadesim +1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Voc&#234; esteve com a v&#237;tima no dia do crime? &quot;" newline="True"/>
+            <input variable="resposta"/>
+            <if expression="resposta=&quot;sim&quot;">
+                <then>
+                    <assign variable="quantidadesim" expression="quantidadesim +1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot; Voc&#234; sabia que a v&#237;tima estaria naquele local? &quot;" newline="True"/>
+            <input variable="resposta"/>
+            <if expression="resposta=&quot;sim&quot;">
+                <then>
+                    <assign variable="quantidadesim" expression="quantidadesim +1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Voc&#234; entrou em contato com a v&#237;tima no dia do ocorrido?&quot;" newline="True"/>
+            <input variable="resposta"/>
+            <if expression="resposta=&quot;sim&quot;">
+                <then>
+                    <assign variable="quantidadesim" expression="quantidadesim +1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Voc&#234; pode reconhecer algum objeto encontrado no local?&quot;" newline="True"/>
+            <input variable="resposta"/>
+            <if expression="resposta=&quot;sim&quot;">
+                <then>
+                    <assign variable="quantidadesim" expression="quantidadesim +1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;O seu depoimento bate com os hor&#225;rios marcados nas cameras?&quot;" newline="True"/>
+            <input variable="resposta"/>
+            <if expression="resposta=&quot;sim&quot;">
+                <then>
+                    <assign variable="quantidadesim" expression="quantidadesim +1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Voc&#234; conhece alguem envolvido neste ocorrido?&quot;" newline="True"/>
+            <input variable="resposta"/>
+            <if expression="resposta=&quot;sim&quot;">
+                <then>
+                    <assign variable="quantidadesim" expression="quantidadesim +1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Voc&#234; pode confirmar aonde estava quando a v&#237;tima foi assassinada?&quot;" newline="True"/>
+            <input variable="resposta"/>
+            <if expression="resposta=&quot;sim&quot;">
+                <then>
+                    <assign variable="quantidadesim" expression="quantidadesim +1"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="quantidadesim-5">
+                <then>
+                    <assign variable="classifica&#231;&#227;o" expression="&quot;inocente&quot;"/>
+                    <assign variable="mensagem" expression="&quot;As respostas nao sao capazes de te incrimar pelo crime. Voce saiu do radar do Patrik Jane, voce est&#225; livre.&quot;"/>
+                </then>
+                <else>
+                    <if expression="quantidadesim=5">
+                        <then>
+                            <assign variable="classifica&#231;&#227;o" expression="&quot;suspeito&quot;"/>
+                            <assign variable="mensagem" expression="&quot;As respostas escontradas te consideram um suspeito pelo crime.Patrik Jane esta de olho em voce, espertinho.&quot;"/>
+                        </then>
+                        <else>
+                            <if expression="quantidadesim&lt;=6 and quantidade&lt;8">
+                                <then>
+                                    <assign variable="classifica&#231;&#227;o" expression="&quot;cumplice&quot;"/>
+                                    <assign variable="mensagem" expression="&quot;Suas respostas indicam cumplicidade sobre o crime.Voce est&#225; na mira do Patrik Jane, ele vai te pegar&quot;"/>
+                                </then>
+                                <else>
+                                    <if expression="quantidadesim&lt;9 and quantidadesim &lt;=10">
+                                        <then>
+                                            <assign variable="classifica&#231;&#227;o" expression="&quot;culpado&quot;"/>
+                                            <assign variable="mensagem" expression="&quot;As respostas indicam que voce tem envolvimento direto com o crime. Objection!! Patrik Jane te pegou seu fuj&#227;o.&quot;"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="coisinha legal"/>
+        <attribute name="authors" value="karen_26264"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-10 09:39:01 "/>
+        <attribute name="created" value="a2FyZW5fMjYyNjQ7TEFCNE1BUTExOzIwMjYtMDgtMTA7IjA4OjU1OjA3ICI7MjY2Mw=="/>
+        <attribute name="edited" value="a2FyZW5fMjYyNjQ7TEFCNE1BUTExOzIwMjYtMDgtMTA7IjA5OjM5OjAxICI7MTsyNzY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nome" type="String" array="False" size=""/>
+            <declare name="Idade" type="Integer" array="False" size=""/>
+            <declare name="Genero" type="String" array="False" size=""/>
+            <declare name="Homem" type="String" array="False" size=""/>
+            <declare name="Mulher" type="String" array="False" size=""/>
+            <input variable="Homem"/>
+            <input variable="Mulher"/>
+            <output expression="&quot;Qual &#233; seu nome&quot;" newline="True"/>
+            <input variable="Nome"/>
+            <output expression="&quot;Qual &#233; sua idade&quot;" newline="True"/>
+            <input variable="Idade"/>
+            <output expression="&quot;Qual &#233; seu genero&quot;" newline="True"/>
+            <input variable="Genero"/>
+            <output expression="&quot;Seu nome &#233;&quot;" newline="True"/>
+            <output expression="nome" newline="True"/>
+            <output expression="&quot;Voc&#234; tem&quot;" newline="True"/>
+            <output expression="idade" newline="True"/>
+            <output expression="&quot;Seu genero &#233;&quot;" newline="True"/>
+            <output expression="genero" newline="True"/>
+            <if expression="Homem &gt;= Mulher">
+                <then>
+                    <output expression="&quot;Sem parabens, sua vida vai ser uma desgra&#231;a, mas pelo menos o exerc&#237;to n&#227;o &#233; obrigat&#243;rio&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ou vira hetero top ou gay, n&#227;o existem outras alternativas&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Anos de Idade&quot;" newline="True"/>
+            <if expression="Idade &gt;= 18">
+                <then>
+                    <output expression="&quot;Parabens, seu voto &#233; obrigat&#243;rio! E o exerc&#237;to tamb&#233;m&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; &#233; de menor esquerda e direita ainda &#233; s&#243; dire&#231;&#227;o, seu voto &#233; facultativo!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
