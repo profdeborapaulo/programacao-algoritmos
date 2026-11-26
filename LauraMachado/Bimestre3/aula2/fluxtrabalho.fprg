@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxtrabalho"/>
+        <attribute name="authors" value="laura_26019"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-24 09:13:30 "/>
+        <attribute name="created" value="bGF1cmFfMjYwMTk7TEFCNE1BUTEyOzIwMjYtMDgtMjQ7IjA3OjQwOjA4ICI7MjY2NQ=="/>
+        <attribute name="edited" value="bGF1cmFfMjYwMTk7TEFCNE1BUTEyOzIwMjYtMDgtMjQ7IjA5OjEzOjMwICI7MTsyNzcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hamburguer" type="Real" array="False" size=""/>
+            <declare name="cheeseburguer" type="Real" array="False" size=""/>
+            <declare name="cachorroquente" type="Real" array="False" size=""/>
+            <declare name="sanduichenatural" type="Real" array="False" size=""/>
+            <declare name="refrigerante" type="Real" array="False" size=""/>
+            <declare name="suconatural" type="Real" array="False" size=""/>
+            <declare name="sobremesa" type="Real" array="False" size=""/>
+            <declare name="hamburguerc" type="Integer" array="False" size=""/>
+            <declare name="cheeseburguerc" type="Integer" array="False" size=""/>
+            <declare name="cachorroquentec" type="Integer" array="False" size=""/>
+            <declare name="sanduichenaturalc" type="Integer" array="False" size=""/>
+            <declare name="refrigerantec" type="Integer" array="False" size=""/>
+            <declare name="suconaturalc" type="Integer" array="False" size=""/>
+            <declare name="sobremesac" type="Integer" array="False" size=""/>
+            <assign variable="hamburguer" expression="26.99"/>
+            <assign variable="cheeseburguer" expression="35.99"/>
+            <assign variable="cachorroquente" expression="18.50"/>
+            <assign variable="sanduichenatural" expression="38.99"/>
+            <assign variable="refrigerante" expression="9.50"/>
+            <assign variable="suconatural" expression="15.45"/>
+            <assign variable="sobremesa" expression="25.00"/>
+            <assign variable="hamburguerc" expression="01"/>
+            <assign variable="cheeseburguerc" expression="02"/>
+            <assign variable="cachorroquentec" expression="03"/>
+            <assign variable="sanduichenaturalc" expression="04"/>
+            <assign variable="refrigerantec" expression="05"/>
+            <assign variable="suconaturalc" expression="06"/>
+            <assign variable="sobremesac" expression="07"/>
+            <output expression="&quot;Card&#225;pio:&quot;" newline="True"/>
+            <output expression="&quot;Hamb&#250;rguer: R$&quot; &amp; hamburguer &amp; &quot; - c&#243;digo do produto: &quot; &amp; hamburguerc" newline="True"/>
+            <output expression="&quot;Cheeseburguer: R$&quot; &amp; cheeseburguer &amp; &quot; - c&#243;digo do produto: &quot; &amp; cheeseburguerc" newline="True"/>
+            <output expression="&quot;Cachorro-quente: R$&quot; &amp; cachorroquente &amp; &quot; - c&#243;digo do produto: &quot; &amp; cachorroquentec" newline="True"/>
+            <output expression="&quot;Sandu&#237;che natural: R$&quot; &amp; sanduichenatural &amp; &quot; - c&#243;digo do produto: &quot; &amp; sanduichenaturalc" newline="True"/>
+            <output expression="&quot;Refrigerante: R$&quot; &amp; refrigerante &amp; &quot; - c&#243;digo do produto: &quot; &amp; refrigerantec" newline="True"/>
+            <output expression="&quot;Suco natural: R$&quot; &amp; suconatural &amp; &quot; - c&#243;digo do produto: &quot; &amp; suconaturalc" newline="True"/>
+            <output expression="&quot;Sobremesa: R$&quot; &amp; sobremesa &amp; &quot; - c&#243;digo do produto: &quot; &amp; sobremesac" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
