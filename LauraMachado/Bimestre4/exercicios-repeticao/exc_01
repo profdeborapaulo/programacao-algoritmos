@@ -1,0 +1,37 @@
+const prompt = require("prompt-sync")();
+
+let quantidade = Number(prompt("Quantas pessoas serâo pesquisadas?"));
+let totalM = 0;
+let totalF = 0;
+let salario = 0;
+let salarioM = 0;
+let salarioF = 0;
+
+for (let i = 1; i<= quantidade; i++)
+{
+    let idade = Number(prompt ("Digite a idade: "));
+    let sexo = prompt("Digite o sexo (M/F):").toUpperCase();
+    let salario = Number(prompt("Digite o salario: "));
+    if (sexo == "M") {
+        totalM++;
+        salarioM += salario;
+    } else if (sexo == "F") {
+        totalF++;
+        salarioF += salario;
+    }
+}
+let mediaM = totalM >0? salarioM/totalM:0;
+let mediaF = totalF >0? salarioF/totalF:0;
+
+console.log("Média salarial dos homens: R$", mediaM);
+console.log("Média salarial das mulheres: R$", mediaF);
+
+console.log("Total de pessoas pesquisadas: ", quantidade);
+
+if (salarioM > salarioF) {
+    console.log("O maior salário foi do sexo masculino.");
+} else if (salarioF > salarioM){
+    console.log("O maior salário foi do sexo feminino.");
+} else {
+    console.log("Os dois sexos possuem o mesmo valor salarial total.");
+}
