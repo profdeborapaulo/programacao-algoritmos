@@ -1,0 +1,36 @@
+comentario em uma linha
+
+1. VAR: Para declarar variáveis que podem ter seus valores mudados
+(desatualizada)
+2. Let: para declarar variáveis que
+3. CONST: Para declarar variáveis que não podem ser alteradas
+
+Operadores e tipos de dados
++ soma
+- subtração
+* multiplicação
+/ divisão
+% Resto div.
+= Atribuição
+
+Operadores relacionais:
+> maior que
+< menor que
+>= maior ou igual a
+<= menor ou igual alteradas
+== igual a
+!= diferente de
+=== igualdade estrita (compara tanto o valor quanto o tipo de dado)
+!== diferença estrita (compara tanto o valor quanto o tipo de dado)
+
+//Operadores Lógicos:
+
+&& - E, retorma true se ambas expressões são verdadeiras
+|| - Ou, retorna true se pelo menos uma das expressões é verdadeira
+! - Não, nega uma expressão lógica(booleana)
+
+tipos de dados
+em javaScript os tipos de dados são:
+Numéricos: number
+conjunto de caracteres: string 
+True e false

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bhaskaraat1"/>
+        <attribute name="authors" value="pedro_26204"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-10 09:25:41 "/>
+        <attribute name="created" value="cGVkcm9fMjYyMDQ7TEFCNE1BUTE5OzIwMjYtMDgtMTA7IjA4OjA0OjE1ICI7MjY2Nw=="/>
+        <attribute name="edited" value="cGVkcm9fMjYyMDQ7TEFCNE1BUTE5OzIwMjYtMDgtMTA7IjA5OjI1OjQxICI7MTsyNzc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="resultadoa" type="Integer" array="False" size=""/>
+            <declare name="resultadob" type="Integer" array="False" size=""/>
+            <declare name="delta" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira A, B e C: &quot;" newline="False"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="delta" expression="b*b -4*a*c"/>
+            <assign variable="delta" expression="sqrt(delta)"/>
+            <assign variable="resultadoa" expression="(-b+delta)/2*a"/>
+            <assign variable="resultadob" expression="(-b-delta)/2*a"/>
+            <output expression="resultadoa" newline="True"/>
+            <output expression="resultadob" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

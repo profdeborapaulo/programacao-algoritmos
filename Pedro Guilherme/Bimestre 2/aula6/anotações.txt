@@ -1,0 +1,3 @@
+   console.log(consumoM,"kg de carne");
+    console.log(consumoC, "doces");
+    console.log(consumoR, "latas de refrigerante");

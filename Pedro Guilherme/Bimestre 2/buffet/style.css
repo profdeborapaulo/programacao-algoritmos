@@ -1,0 +1,229 @@
+:root{
+    --title: white;
+    --gold: #C5A880;
+    --max: 1200px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Inter', sans-serif;
+
+}
+
+.background{
+    display:flex;
+    height: 100vh;
+}
+
+.left{
+    flex: 1;
+    background-image: url("gdlckcf9it6xier3ouik.jpg");
+    filter: brightness(0.8);
+    background-size: cover;
+    background-position: center;
+}
+
+.right{
+    flex: 2;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+        font-family: 'Playfair Display', serif;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        color: var(--title);
+        font-size: 3rem;
+        font-weight: 800;
+        letter-spacing: 0.01em;
+        text-align: justify;
+        text-indent: 40px;
+    }
+}
+
+   .destaque{
+        color: var(--gold);
+    }
+
+.header{
+      position: fixed;
+      inset: 16px 0 auto 0;
+      z-index: 1000;
+      pointer-events: none;
+}
+
+    .nav{
+      pointer-events: auto;
+      width: min(100% - 24px, var(--max));
+      margin: 0 auto;
+      padding: 16px 22px;
+      border: 1px solid rgba(197,168,128,0.15);
+      border-radius: 999px;
+      background: rgba(18,18,18,0.55);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand{
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--title);
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+    }
+
+    .brand-mark{
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      border: 1px solid rgba(197,168,128,0.6);
+      display: grid;
+      place-items: center;
+      color: var(--gold);
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      background: linear-gradient(145deg, rgba(255,255,255,0.04), rgba(197,168,128,0.06));
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.02);
+    }
+
+    .brand span:last-child{
+      font-family: 'Inter', sans-serif;
+      font-size: 0.96rem;
+    }
+
+    .nav-links{
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .botao {
+        display: inline-block;
+        padding: 12px 20px;
+        background-color: black;
+        color: var(--title);
+        text-decoration: none;
+        border-radius: 8px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+.botao:hover {
+    background-color: var(--gold);
+    transform: scale(1.05);
+}
+
+.right p{
+    font-family: 'Playfair Display', serif;
+    color: var(--gold);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.right input{
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+.right .botao{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: var(--gold);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.cards {
+    background: black;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+
+    p{
+        font-family: 'Playfair Display', serif;
+        color: var(--gold);
+        font-size: 1.2rem;
+        margin: 10px;
+    }
+
+    img{
+        width: 100%;
+        border-radius: 8px;
+    }
+}
+
+.card{
+    background-color: white;
+    color:black;
+    padding:20px;
+    width: 200px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px var(--gold);
+}
+
+.footer {
+  background: #0d0d0d;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: left;
+}
+
+.footer-box {
+  min-width: 180px;
+}
+
+.footer-box h4 {
+  margin-bottom: 10px;
+}
+
+.footer-box p {
+  margin: 5px 0;
+  opacity: 0.8;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+    html{
+        scroll-behavior: smooth;
+    }

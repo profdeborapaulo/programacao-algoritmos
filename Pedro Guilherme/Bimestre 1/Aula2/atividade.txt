@@ -1,0 +1,11 @@
+1 - desenvolver um programa em Javascript para verificar se um número é impar ou par.
+
+2- uma empresa necessita de um programa que calcule a quantidade de horas extras semanais
+de um funcionario. sabendo que a carga semanal é de 44 horas, o programa deverá exibir um
+alerta se a quantidade de horas exceder este limite e mostrar o total de horas excedidas. 
+Caso contrario, exibir a mensagem que não houve horas extras pelo funcionário.
+
+3- A familia "carrara" deseja comprar um imóvel. pelas regras de financiamento
+a prestação do financiamento não poderá exceder a 30% do valor do valor da renda.
+O programa deve receber a renda total da familia e o valor total do financiamento dividido pelo numero de meses
+para o pagamento. O programa deverá informar o valor máximo permitido para a parcela, e se foi aprovado ou reprovado o plano.
