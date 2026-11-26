@@ -1,0 +1,22 @@
+1. desenvolva um programa que valide o login de um usuário, se o usuário digitar o login
+admin e na senha 1234, vai mostar na tela: "Usuário logado com sucesso!", caso contrário mostre "Acesso
+negado".
+
+2. Uma empresa de e-commerce deseja automatizar o seu sistema de entregas. Para isso, será necessário
+desenvolver um programa que avalie a distância entre o centro e o centro de distribuição e a cidade de destino
+para determinar a viabilidade da entrega e o valor do frete. Regras de negócio: O cálculo do frete e a disponibilidade do serviço
+são baseados na distância em km, conforme a seguir:
+Até 120km frete grátis
+Acima de 121km a 300km frete calculado. R$2,00  por km
+Acima de 300km a entrega não é realizada
+Ao final exibir se o frete não é grátis
+se houve cobrança de frete
+se estiver fora da área de serviço
+
+3. Uma academia de natação precisa de um sistema que organiza a categoria dos seus atletas, 
+conforme sua idade:
+menor que 5: "Categoria não permitida!"
+maior ou igual a 5 e menor ou igual a 7: "Infantil A"
+maior que 7 e menor ou igual a 14: "Infantil B"
+maior que 14 e menor ou igual a 17: "Juvenil"
+Caso nenhum destes se aplique: "Categoria Sênior" 
